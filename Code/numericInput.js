@@ -21,8 +21,8 @@ $.fn.onlyNumbers = function () {
 };
 
 /* Sample usage 
-	<input type="text" class="form-control custom-numeric="true" input-lg" id="myNumericText1">
-	<input type="text" class="form-control custom-numeric="true" input-lg" id="myNumericText2">
+	<input type="text" class="form-control input-lg" custom-numeric="true" id="myNumericText1">
+	<input type="text" class="form-control input-lg" custom-numeric="true" id="myNumericText2">
 	
 	$(function(){
 		$('input[custom-numeric="true"]').onlyNumbers(); //apply to all inputs with custom attribute custom-numeric="true"
